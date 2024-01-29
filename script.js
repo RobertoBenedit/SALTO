@@ -40,4 +40,4 @@ const headerActive = function () {
     : header.classList.remove("active");
 };
 
-addEventOnElem(window, "scroll".headerActive);
+addEventOnElem(window, "scroll".headerActive); 
