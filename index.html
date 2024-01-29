@@ -1,171 +1,288 @@
 <!-- @format -->
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SALTO</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+		<!-- custom css link -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- google font link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+		<!-- preload images -->
+		<link rel="preload" as="image" href="assets/images/hero-banner.png" />
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>SALTO</title>
-	<!-- favicon -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
-	<!-- custom css link -->
-	<link rel="stylesheet" href="style.css" />
-	<!-- google font link -->
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-		rel="stylesheet" />
-	<!-- preload images -->
-	<link rel="preload" as="image" href="assets/images/hero-banner.png" />
-</head>
+	<body>
+		<!-- Header -->
+		<header class="header" data-header>
+			<div class="container">
+				<a href="#" class="logo">SALTO</a>
 
-<body>
-	<!-- Header -->
-	<header class="header" data-header>
-		<div class="container">
-			<a href="#" class="logo">SALTO</a>
+				<nav class="navbar" data-navbar>
+					<!-- <img src="Logo.png" alt=""> -->
+					<div class="wrapper">
+						<a href="#" class="logo">Hoolix</a>
+						<button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+							<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+						</button>
+					</div>
 
-			<nav class="navbar" data-navbar>
-				<!-- <img src="Logo.png" alt=""> -->
-				<div class="wrapper">
-					<a href="#" class="logo">Hoolix</a>
-					<button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-						<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-					</button>
-				</div>
+					<ul class="navbar-list">
+						<li>
+							<a href="#hero" class="navbar-link" data-nav-link>Hero</a>
+						</li>
 
-				<ul class="navbar-list">
-					<li>
-						<a href="#hero" class="navbar-link" data-nav-link>Hero</a>
-					</li>
+						<li>
+							<a href="#about" class="navbar-link" data-nav-link>About</a>
+						</li>
 
-					<li>
-						<a href="#about" class="navbar-link" data-nav-link>About</a>
-					</li>
+						<li>
+							<a href="#services" class="navbar-link" data-nav-link>Services</a>
+						</li>
 
-					<li>
-						<a href="#services" class="navbar-link" data-nav-link>Services</a>
-					</li>
+						<li>
+							<a href="#features" class="navbar-link" data-nav-link>Features</a>
+						</li>
 
-					<li>
-						<a href="#features" class="navbar-link" data-nav-link>Features</a>
-					</li>
+						<li>
+							<a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+						</li>
 
-					<li>
-						<a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-					</li>
+						<li>
+							<a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+						</li>
+					</ul>
+				</nav>
 
-					<li>
-						<a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
-					</li>
-				</ul>
-			</nav>
-
-			<button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-				<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-			</button>
-			<a href="#" class="btn-outline">Hablemos</a>
-			<div class="overlay" data-nav-toggler data-overlay></div>
-		</div>
-	</header>
-	<main>
-		<article>
-			<!-- 
+				<button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+					<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+				</button>
+				<a href="#" class="btn-outline">Hablemos</a>
+				<div class="overlay" data-nav-toggler data-overlay></div>
+			</div>
+		</header>
+		<main>
+			<article>
+				<!-- 
           - #HERO
             -->
-			<section class="section hero" id="home" arial-label="hero">
-				<div class="container">
-					<div class="hero-content">
-						<p class="hero-subtitle has-before">Bienvenidos a nuestra agencia</p>
+				<section class="section hero" id="home" arial-label="hero">
+					<div class="container">
+						<div class="hero-content">
+							<p class="hero-subtitle has-before">Bienvenidos a nuestra agencia</p>
 
-						<h1 class="h1 hero-title">Ideas inteligentes para tu marca estan aqui</h1>
+							<h1 class="h1 hero-title">Ideas inteligentes para tu marca estan aqui</h1>
 
-						<p class="hero-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum, doloribus doloremque
-							atque eaque reiciendis voluptatem exercitationem, itaque maxime omnis provident aliquam
-							magnam fugit? Fugiat distinctio quaerat dolores atque laboriosam?
-						</p>
+							<p class="hero-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum, doloribus doloremque atque eaque reiciendis voluptatem exercitationem, itaque maxime omnis provident aliquam magnam fugit? Fugiat distinctio quaerat dolores atque laboriosam?
+							</p>
 
-						<div class="btn-group">
-							<a href="#" class="btn btn-primary">Descubri Mas</a>
+							<div class="btn-group">
+								<a href="#" class="btn btn-primary">Descubri Mas</a>
 
-							<button class="flex-btn">
-								<div class="btn-icon">
-									<ion-icon name="play" aria-hidden="true"></ion-icon>
-								</div>
+								<button class="flex-btn">
+									<div class="btn-icon">
+										<ion-icon name="play" aria-hidden="true"></ion-icon>
+									</div>
 
-								<span class="span">Como funciona?</span>
-							</button>
+									<span class="span">Como funciona?</span>
+								</button>
+							</div>
 						</div>
+
+						<!-- style="--width: 650; --height: 650" -->
+
+						<figure class="hero-banner has-before img-holder">
+							<img src="assets/images/hero-banner.png" alt="hero banner" class="img-cover" />
+						</figure>
+						<!-- width="650" height="650" -->
 					</div>
-
-					<!-- style="--width: 650; --height: 650" -->
-
-					<figure class="hero-banner has-before img-holder">
-						<img src="assets/images/hero-banner.png" alt="hero banner" class="img-cover" />
-					</figure>
-					<!-- width="650" height="650" -->
-				</div>
-			</section>
-			<!-- 
+				</section>
+				<!-- 
           - #ABOUT
          -->
-			<section class="section about" id="about" aria-label="about">
-				<div class="container">
-					<figure class="about-banner">
-						<img src="assets/images/about-banner.png" alt="About Banner" width="802" hight="654"
-							loading="lazy" class="w-100" />
-					</figure>
-					<div class="about-content">
-						<h2 class="h2-sm section-title">Creamos cosas, mas que relaciones personales.</h2>
+				<section class="section about" id="about" aria-label="about">
+					<div class="container">
+						<figure class="about-banner">
+							<img src="assets/images/about-banner.png" alt="About Banner" width="802" hight="654" loading="lazy" class="w-100" />
+						</figure>
+						<div class="about-content">
+							<h2 class="h2-sm section-title">Creamos cosas, mas que relaciones personales.</h2>
 
-						<p class="section-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloremque quia inventore modi
-							suscipit sed distinctio eum sit, magni cumque adipisci dicta rerum aspernatur id, possimus
-							labore illo fugit sapiente vero? Aspernatur perferendis amet dolorem
-							recusandae alias earum illo.
-						</p>
+							<p class="section-text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloremque quia inventore modi suscipit sed distinctio eum sit, magni cumque adipisci dicta rerum aspernatur id, possimus labore illo fugit sapiente vero? Aspernatur perferendis amet dolorem
+								recusandae alias earum illo.
+							</p>
 
-						<ul class="about-list">
-							<li class="has-before">Precios de nuestros servicios</li>
-							<li class="has-before">servicios persnalizados en todo el pais</li>
-							<li class="has-before">No tenes que preocuparte por nada mas</li>
-						</ul>
-						<div class="btn-group">
-							<a href="#" class="btn btn-primary">Descubri Mas</a>
+							<ul class="about-list">
+								<li class="has-before">Precios de nuestros servicios</li>
+								<li class="has-before">servicios persnalizados en todo el pais</li>
+								<li class="has-before">No tenes que preocuparte por nada mas</li>
+							</ul>
+							<div class="btn-group">
+								<a href="#" class="btn btn-primary">Descubri Mas</a>
 
-							<button class="flex-btn">
-								<div class="btn-icon">
-									<ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
-								</div>
+								<button class="flex-btn">
+									<div class="btn-icon">
+										<ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+									</div>
 
-								<span class="span">10+ de experiencia</span>
-							</button>
+									<span class="span">10+ de experiencia</span>
+								</button>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<!-- 
+				<!-- 
           - #SERVICE
             -->
-			<section class="section service" id="services" aria-label="services">
-				<p class="section-subtitle text-center">Que ofrecemos</p>
-				h2.h2.section-tipl
-			</section>
 
-			<!-- 
-          	- #
-            -->
-		</article>
-	</main>
-</body>
-<!-- custom js link -->
-<script src="script.js"></script>
-<!-- ionicon link -->
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+				<section class="section service" id="services" aria-label="services">
+					<div class="container">
+						<p class="section-subtitle text-center">Que ofrecemos</p>
 
+						<h2 class="h2 section-title text-center">Nuestras conferencias</h2>
+
+						<p class="section-text text-center">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo aliquam molestias voluptatibus, fugiat error quidem, mollitia possimus adipisci earum sit sed, ipsa repudiandae? Rem quisquam praesentium numquam officiis assumenda nisi corporis, nostrum quis non
+							saepe recusandae, placeat blanditiis a nulla?
+						</p>
+
+						<ul class="grid-list">
+							<!-- service1 -->
+							<li>
+								<div class="service-card has-after">
+									<figure class="card-icon"><img src="assets/images/service-1.png" alt="Service" width="140" height="140" loading="lazy" class="img" /></figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">Servicios personalizados 2</h3>
+										<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam odit culpa quam vitae, optio accusamus quidem quas cumque similique?</p>
+										<a href="#" class="btn-link">
+											<span class="span">Read More</span>
+											<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+										</a>
+									</div>
+								</div>
+								<!-- service 2 -->
+							</li>
+							<li>
+								<div class="service-card has-after">
+									<figure class="card-icon"><img src="assets/images/service-2.png" alt="Service" width="140" height="140" loading="lazy" class="img" /></figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">Servicios personalizados 2</h3>
+										<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam odit culpa quam vitae, optio accusamus quidem quas cumque similique?</p>
+										<a href="#" class="btn-link">
+											<span class="span">Read More</span>
+											<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="service-card has-after">
+									<figure class="card-icon"><img src="assets/images/service-3.png" alt="Service" width="140" height="140" loading="lazy" class="img" /></figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">Servicios personalizados 3</h3>
+										<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam odit culpa quam vitae, optio accusamus quidem quas cumque similique?</p>
+										<a href="#" class="btn-link">
+											<span class="span">Read More</span>
+											<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="service-card has-after">
+									<figure class="card-icon"><img src="assets/images/service-4.png" alt="Service" width="140" height="140" loading="lazy" class="img" /></figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">Servicios personalizados 4</h3>
+										<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam odit culpa quam vitae, optio accusamus quidem quas cumque similique?</p>
+										<a href="#" class="btn-link">
+											<span class="span">Read More</span>
+											<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+										</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+						<a href="#" class="btn btn-primary">Empecemos</a>
+					</div>
+				</section>
+
+				<!-- 
+									- #FEATURES
+				-->
+				<section class="section features" id="features" aria-label="features">
+					<div class="container">
+						<p class="section-subtitle text-center">-Por que elegirnos-</p>
+
+						<h2 class="h2 section-title text-center">Razones para elegirnos</h2>
+
+						<p class="section-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta minus id animi est facere quidem, hic exercitationem ad ea debitis maiores, architecto nisi accusamus tempora molestiae eius fugit blanditiis. Fuga!</p>
+
+						<ul class="grid-list">
+							<li>
+								<div class="features-card">
+									<data class="card-number" value="01">1</data>
+									<h3 class="h3 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ipsum consequatur quasi molestiae, tempora reiciendis voluptatem perspiciatis. Ex, accusantium. nuevos caminos</h3>
+									<p class="card-text">Lorem, ipsum dolor.</p>
+								</div>
+							</li>
+							<li>
+								<div class="features-card">
+									<data class="card-number" value="02">2</data>
+									<h3 class="h3 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ipsum consequatur quasi molestiae, tempora reiciendis voluptatem perspiciatis. Ex, accusantium. nuevos caminos</h3>
+									<p class="card-text">Lorem, ipsum dolor.</p>
+								</div>
+							</li>
+							<li>
+								<div class="features-card">
+									<data class="card-number" value="03">3</data>
+									<h3 class="h3 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ipsum consequatur quasi molestiae, tempora reiciendis voluptatem perspiciatis. Ex, accusantium. nuevos caminos</h3>
+									<p class="card-text">Lorem, ipsum dolor.</p>
+								</div>
+							</li>
+							<li>
+								<div class="features-card">
+									<data class="card-number" value="04">4</data>
+									<h3 class="h3 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ipsum consequatur quasi molestiae, tempora reiciendis voluptatem perspiciatis. Ex, accusantium. nuevos caminos</h3>
+									<p class="card-text">Lorem, ipsum dolor.</p>
+								</div>
+							</li>
+							<li>
+								<div class="features-card">
+									<data class="card-number" value="05">5</data>
+									<h3 class="h3 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ipsum consequatur quasi molestiae, tempora reiciendis voluptatem perspiciatis. Ex, accusantium. nuevos caminos</h3>
+									<p class="card-text">Lorem, ipsum dolor.</p>
+								</div>
+							</li>
+							<li>
+								<div class="features-card">
+									<data class="card-number" value="06">6</data>
+									<h3 class="h3 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia ipsum consequatur quasi molestiae, tempora reiciendis voluptatem perspiciatis. Ex, accusantium. nuevos caminos</h3>
+									<p class="card-text">Lorem, ipsum dolor.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- 
+					- #FAQ
+				-->
+			</article>
+		</main>
+	</body>
+	<!-- custom js link -->
+	<script src="script.js"></script>
+	<!-- ionicon link -->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
