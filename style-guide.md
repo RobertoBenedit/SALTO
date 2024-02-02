@@ -34,7 +34,8 @@ Ionicon
 --light-gray: hsl(0, 0%, 80%);
 --mint-cream: hsl(160, 100%, 98%);
 --cultured: hsl(0, 0%, 93%);
---go-green: hsl(145, 63%, 42%);
+  /* --go-green: hsl(145, 63%, 42%); */
+  --go-green: #0097B2  ;
 --white: hsl(0, 0%, 100%);
 --jet: hsl(0, 0%, 18%);
 ```
