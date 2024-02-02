@@ -24,7 +24,7 @@ Ionicon
 ## Colors
 
 ``` css
---rich-black-fogra-29-1: hsl(215, 31%, 14%);
+/* --rich-black-fogra-29-1: hsl(215, 31%, 14%);
 --rich-black-fogra-29-2: hsl(230, 14%, 8%);
 --rich-black-fogra-39: hsl(158, 29%, 5%);
 --granite-gray: hsl(0, 0%, 40%);
@@ -38,7 +38,7 @@ Ionicon
   --go-green: #0097B2  ;
 --white: hsl(0, 0%, 100%);
 --jet: hsl(0, 0%, 18%);
-```
+``` */
 
 ## Gradient color
 
