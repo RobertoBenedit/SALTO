@@ -2,8 +2,6 @@
     FALTA HACER
 |-----------------------|
 
-Agregar el logo 
-
 Quienes somos
 
 Valores
@@ -18,6 +16,8 @@ Redes sociales
 |-----------------------|
     HECHO
 |-----------------------|
+
+Agregar el logo 
 
 Enfoques
 
