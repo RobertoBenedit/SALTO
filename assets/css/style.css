@@ -1493,7 +1493,7 @@ body {
 
 .profile1 {
 	margin: 0;
-	padding: 100px;
+	padding: 30px;
 	/* height: 100vh; */
 	justify-content: center;
 	align-items: center;
@@ -1548,8 +1548,8 @@ body {
 	margin-right: auto;
 	border-radius: 100px;
 	border: 10px solid #fff;
-	transition-duration: .7s;
-	transition-property: transform translate ease-in-out; 
+	transition-duration: 0.7s;
+	transition-property: transform translate ease-in-out;
 }
 
 .profile .profile-image img:hover {
@@ -1594,7 +1594,12 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+	/* .section .hero .profile1 {
+		padding: 0;
+	} */
 	.profile {
+		/* margin: 0;
+		padding: 0; */
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		align-items: center;
