@@ -767,6 +767,50 @@ section.features .container h2 {
   #FOOTER
 \*-----------------------------------*/
 
+/* section.mapa {
+	width: 80%;
+	height: 100%;
+} */
+
+/* mapa start */
+section .map {
+	/* display: flex; */
+	/* justify-content: center;
+	align-items: center;
+	flex-direction: column; */
+	/* width: 1200px; */
+}
+
+.map .container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+.map iframe {
+	width: 90%;
+	height: 100%;
+}
+
+.map h1 {
+	text-align: center;
+	font-size: 5rem;
+	font-weight: 500;
+	padding: 2rem;
+	color: var(--rich-black-fogra-29-1);
+}
+
+.map p {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 2rem;
+}
+/* mapa End */
+
 .footer {
 	background-color: var(--rich-black-fogra-29-2);
 	color: var(--cultured);
@@ -817,6 +861,11 @@ section.features .container h2 {
 	line-height: 1.2;
 	margin-block-end: 25px;
 }
+.footer-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .footer-link {
 	margin-block-start: 15px;
@@ -836,6 +885,13 @@ section.features .container h2 {
 
 .footer-item {
 	margin-block-start: 15px;
+	display: flex;
+}
+.footer-item-social {
+	margin-block-start: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .footer-item > ion-icon {
@@ -860,10 +916,15 @@ section.features .container h2 {
 }
 
 .social-link {
-	font-size: 14px;
+	font-size: 70px;
 	border: 1px solid var(--granite-gray);
-	padding: 10px;
+	padding: 12px;
 	transition: var(--transition-1);
+}
+.footer-brand {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .social-link:is(:hover, :focus) {
