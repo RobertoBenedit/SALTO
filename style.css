@@ -916,16 +916,16 @@ section .map {
 }
 
 .social-link {
-	font-size: 70px;
+	font-size: 50px;
 	border: 1px solid var(--granite-gray);
 	padding: 12px;
 	transition: var(--transition-1);
 }
-.footer-brand {
+/* .footer-brand {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-}
+} */
 
 .social-link:is(:hover, :focus) {
 	background-color: var(--go-green);
