@@ -580,6 +580,9 @@ body {
 	text-align: center;
 	box-shadow: var(--shadow-1);
 }
+.service-card li {
+	text-align: left;
+}
 
 .service-card::after {
 	bottom: 0;
@@ -619,6 +622,10 @@ body {
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
+
+section.features .container h2 {
+	padding: 2rem;
+}
 
 .features .section-text {
 	margin-block: 15px 50px;
@@ -1104,6 +1111,10 @@ body {
    * ABOUT
    */
 
+	.service .container details ul {
+		padding-top: 2rem;
+	}
+
 	.about .container {
 		grid-template-columns: 1fr 1fr;
 		align-items: center;
@@ -1199,7 +1210,9 @@ body {
 	/**
    * ABOUT
    */
-
+	.service .container details ul {
+		padding-top: 2rem;
+	}
 	.about .container {
 		grid-template-columns: 1fr 0.7fr;
 	}
@@ -1466,6 +1479,9 @@ body {
 	.container1 .card__button {
 		align-self: flex-end;
 	}
+	.service .container details ul {
+		padding-top: 2rem;
+	}
 }
 
 /* For large devices */
@@ -1615,6 +1631,9 @@ body {
 		border-top-right-radius: 10px;
 		object-fit: cover;
 	}
+	.service .container details ul {
+		padding-top: 2rem;
+	}
 }
 @media screen and (max-width: 726px) {
 	.profile {
@@ -1631,6 +1650,9 @@ body {
 		border-top-right-radius: 10px;
 		object-fit: cover;
 		height: 150px;
+	}
+	.service .container details ul {
+		padding-top: 2rem;
 	}
 }
 @media screen and (min-width: 968px) {
