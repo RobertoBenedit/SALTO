@@ -22,12 +22,12 @@
 		<!-- 
     - favicon
   -->
-		<link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/Logo.png" type="image/x-icon" />
 
 		<!-- 
     - custom css link
   -->
-		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="style.css" />
 
 		<!-- 
     - google font link
@@ -39,7 +39,7 @@
 		<!-- 
     - preload images
   -->
-		<link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+		<link rel="preload" as="image" href="images/hero-banner.jpg" />
 	</head>
 
 	<body>
@@ -51,7 +51,7 @@
 			<div class="container">
 				<div class="logo-nombre">
 					<!-- <a href="#" class="logo">SALTO</a> -->
-					<img src="Logo.png" alt="Logo" />
+					<img src="images/Logo.png" alt="Logo" />
 				</div>
 				<nav class="navbar" data-navbar>
 					<div class="wrapper">
@@ -135,7 +135,7 @@
 						</div>
 
 						<figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650">
-							<img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover" />
+							<img src="images/hero-banner.jpg" width="650" height="650" alt="hero banner" class="img-cover" />
 						</figure>
 					</div>
 				</section>
@@ -147,10 +147,10 @@
 					<div class="profile">
 						<div class="card">
 							<div class="card-image">
-								<img src="assets/images/fondoprofile1.jpg" alt="" />
+								<img src="images/fondo-profile1.jpg" alt="" />
 							</div>
 							<div class="profile-image">
-								<img src="assets/images/Persona1.jpg" alt="" />
+								<img src="images/Persona1.jpg" alt="" />
 							</div>
 							<div class="card-content">
 								<h2>Haroldo Perrone</h2>
@@ -169,14 +169,14 @@
 						</div>
 						<div class="card">
 							<div class="card-image">
-								<img src="assets/images/fondoprofile1.jpg" alt="" />
+								<img src="images/fondo-profile1.jpg" alt="" />
 							</div>
 							<div class="profile-image">
-								<img src="assets/images/Persona1.jpg" alt="" />
+								<img src="images/Persona1.jpg" alt="" />
 							</div>
 							<div class="card-content">
 								<h2>Francisco Torassa</h2>
-								<h3>“Estrategia sin táctica, es el más lento camino hacia la victoria”</h3>
+								<h3>“Mientras más grande es el desafío, más grande será el triunfo</h3>
 								<p>
 									Soy un apasionado en acompañar a individuos y a equipos, a que desarrollen habilidades propias, que les permitan crear el futuro que desean. Coach Ontológico Profesional, avalado por AACOP y FICOP desde el año 2019. Administrador de empresas y asesor
 									empresarial en administración, organización y finanzas. Actualmente, entrenador de Coaches en la Escuela de Coaching Ontológica Americano (ECOA) en la sedes de Río Cuarto y la Patagonia. “Mientras más grande es el desafío, más grande será el triunfo”
@@ -208,7 +208,7 @@
 
 							<header class="card__header">
 								<div class="card__header-circle grid">
-									<img src="Logo.png" alt="" class="card__header-img" />
+									<img src="images/Logo.png" alt="" class="card__header-img" />
 								</div>
 
 								<span class="card__header-subtitle">Nuestra</span>
@@ -248,7 +248,7 @@
 
 							<header class="card__header">
 								<div class="card__header-circle grid">
-									<img src="Logo.png" alt="" class="card__header-img" />
+									<img src="images/Logo.png" alt="" class="card__header-img" />
 								</div>
 
 								<span class="card__header-subtitle">Nuestra</span>
@@ -259,7 +259,7 @@
 								<li class="card__list-item">
 									<i class="uil uil-check card__list-icon"></i>
 									<p class="card__list-description">
-										Facilitar espacios reflexivos y de aprendizajes a individuos y/o equipos, dispuestos a crear futuros poderosos, superadores, relevantes y transformacionales. Con la finalidad de generar realidades que impacten en sus ámbitos y en la sociedad.
+										Somos agentes de cambio, entrenando a individuos y equipos, que se superan en su SER para alcanzar resultados extraordinarios por medio de la disciplina de coaching, fortaleciendo su mente, su cuerpo y sus emociones.
 									</p>
 								</li>
 								<!-- <li class="card__list-item">
@@ -292,7 +292,7 @@
 
 							<header class="card__header">
 								<div class="card__header-circle grid">
-									<img src="Logo.png" alt="" class="card__header-img" />
+									<img src="images/Logo.png" alt="" class="card__header-img" />
 								</div>
 
 								<span class="card__header-subtitle">Nuestros</span>
@@ -342,7 +342,7 @@
 				<section class="section about" id="about" aria-label="about">
 					<div class="container">
 						<figure class="about-banner">
-							<img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner" class="w-100" />
+							<img src="images/about-banner.jpg" width="802" height="654" loading="lazy" alt="about banner" class="w-100" />
 						</figure>
 
 						<div class="about-content">
@@ -424,7 +424,7 @@
 							<li>
 								<div class="service-card has-after">
 									<figure class="card-icon">
-										<img src="./assets/images/service-1.png" width="140" height="140" loading="lazy" alt="UI/UX Creative Design" class="img" />
+										<img src="images/service-1.png" width="140" height="140" loading="lazy" alt="UI/UX Creative Design" class="img" />
 									</figure>
 
 									<div class="card-content">
@@ -435,19 +435,36 @@
 											liderazgo y el compromiso... para obtener los objetivos trazados por la organización. Más info:
 										</p>
 
-										<a href="#" class="btn-link">
+										<details>
+											<summary>Seguir leyendo ...</summary>
+											<p>
+												<ul class="about-list">
+													<li class="has-before">Consolidación de equipos</li>
+													<li class="has-before">Trabajo en equipo</li>
+													<li class="has-before">Creación de compromiso</li>
+													<li class="has-before">Acompañamiento en situaciones de conflicto</li>
+													<li class="has-before">Dinámicas interactivas que impactan en el cuerpo, la mente y las emociones</li>
+												</ul>
+											</p>
+										</details>
+
+										<!-- <a href="#" class="btn-link">
 											<span class="span">Seguir leyendo ...</span>
 
 											<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-										</a>
+										</a> -->
 									</div>
+
+									<!-- Iniciio prueba -->
+
+									<!-- fin prueba -->
 								</div>
 							</li>
 
 							<li>
 								<div class="service-card has-after">
 									<figure class="card-icon">
-										<img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development" class="img" />
+										<img src="images/service-2.png" width="140" height="140" loading="lazy" alt="App Development" class="img" />
 									</figure>
 
 									<div class="card-content">
@@ -470,7 +487,7 @@
 							<li>
 								<div class="service-card has-after">
 									<figure class="card-icon">
-										<img src="./assets/images/service-3.png" width="140" height="140" loading="lazy" alt="Professional Content Writer" class="img" />
+										<img src="images/service-3.png" width="140" height="140" loading="lazy" alt="Professional Content Writer" class="img" />
 									</figure>
 
 									<div class="card-content">
@@ -493,7 +510,7 @@
 							<li>
 								<div class="service-card has-after">
 									<figure class="card-icon">
-										<img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img" />
+										<img src="images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design" class="img" />
 									</figure>
 
 									<div class="card-content">
@@ -527,7 +544,7 @@
 							<li>
 								<div class="service-card has-after">
 									<figure class="card-icon">
-										<img src="./assets/images/service-1.png" width="140" height="140" loading="lazy" alt="UI/UX Creative Design" class="img" />
+										<img src="images/service-1.png" width="140" height="140" loading="lazy" alt="UI/UX Creative Design" class="img" />
 									</figure>
 
 									<div class="card-content">
@@ -549,7 +566,7 @@
 							<li>
 								<div class="service-card has-after">
 									<figure class="card-icon">
-										<img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development" class="img" />
+										<img src="images/service-2.png" width="140" height="140" loading="lazy" alt="App Development" class="img" />
 									</figure>
 
 									<div class="card-content">
@@ -974,7 +991,7 @@
 		<!-- 
     - custom js link
   -->
-		<script src="./assets/js/script.js"></script>
+		<script src="script.js"></script>
 
 		<!-- 
     - ionicon link
