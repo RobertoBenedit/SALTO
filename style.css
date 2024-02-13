@@ -773,13 +773,13 @@ section.features .container h2 {
 } */
 
 /* mapa start */
-section .map {
-	/* display: flex; */
-	/* justify-content: center;
+/* section .map {
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	flex-direction: column; */
-	/* width: 1200px; */
-}
+	flex-direction: column;
+	width: 1200px;
+} */
 
 .map .container {
 	width: 100%;
