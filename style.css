@@ -1656,7 +1656,7 @@ section.features .container h2 {
 }
 
 .profile .profile-image img:hover {
-	transform: scale(2) translateY(-60px);
+	transform: scale(2);
 }
 
 .profile .card-content h2 {
